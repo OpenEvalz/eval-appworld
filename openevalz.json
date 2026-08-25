@@ -1,0 +1,39 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "appworld",
+    "slug": "appworld",
+    "title": "AppWorld Benchmark (Interactive Coding Agents over App APIs)",
+    "group": "",
+    "tags": [],
+    "source": "register"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "register/appworld",
+    "inspect_ai": "0.3.260",
+    "eval_version": "",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "appworld",
+      "samples": 0
+    }
+  ],
+  "total_samples": 0,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
